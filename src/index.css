@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #050505b4;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #050505b4;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* IMPORTANT TEXT SAFETY */
+h1, h2, h3, p {
+  word-break: break-word;
+  line-height: 1.6;
+}
+
+@keyframes sideFloat {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
