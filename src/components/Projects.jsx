@@ -44,7 +44,15 @@ const projects = [
     live: "https://boutque-iv69.vercel.app/",
     github: "https://github.com/Madhumidha12345/boutque",
   },
-];
+  {
+  title: "News Website",
+  image: "/newssss.jpg",
+  desc: "A modern and responsive news website with real-time articles and clean UI.",
+  tech: "React • Vite • Tailwind CSS • JavaScript",
+  live: "https://newss-eight.vercel.app/",
+  github: "https://github.com/Madhumidha12345/newss",
+},
+]
 
 function Projects() {
   return (
