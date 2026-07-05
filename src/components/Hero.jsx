@@ -74,7 +74,7 @@ function Hero() {
            <Button
   variant="outlined"
   component="a"
-  href="/Madhu_Resume.pdf"
+  href="/resume1.pdf"
   target="_blank"
   rel="noopener noreferrer"
   sx={{
